@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CashlessRegistrationChallenge.API</name>
+    </assembly>
+    <members>
+        <member name="M:CashlessTokenChallenge.Controllers.CardController.Post(CashlessTokenChallenge.Models.DTOs.CardDTO)">
+            <summary>
+            Save customer card on db
+            </summary>
+            <response code="200">Returns the created card</response>
+        </member>
+        <member name="M:CashlessTokenChallenge.Controllers.TokenController.Post(CashlessTokenChallenge.Models.DTOs.TokenValidationDTO)">
+            <summary>
+            Validate token for customer card
+            </summary>
+            <response code="200">Returns the token validation result</response>
+        </member>
+    </members>
+</doc>
